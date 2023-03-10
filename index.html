@@ -10,9 +10,9 @@
     <h1>SurveyForm</h1>
     <p id="description">Please fill out this form</p>
     <form id="survey-form">
-        <input id="name" type="text" required>
-        <input id="email" type="email" required>
-
+        <label id="name-label"><input id="name" type="text" required placeholder="name"></label>
+        <label id="email-label"><input id="email" type="email" required placeholder="email"></label>
+        <label id="number-label"><input id="number" type="number" min="0" max="10" placeholder="number from 0-10"></label>
     </form>
 </body>
 </html>
