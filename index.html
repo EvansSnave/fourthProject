@@ -8,23 +8,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 style="color: red">SurveyForm</h1>
-    <p id="description">Please fill out this form</p>    
-    <form id="survey-form">
-        <label id="name-label"><input id="name" type="text" required placeholder="name"></label>
-        <label id="email-label"><input id="email" type="email" required placeholder="email"></label>
-        <label id="number-label"><input id="number" type="number" min="0" max="10" placeholder="number from 0-10"></label>
-        <select id="dropdown">
-            <option value="value1">value1</option>
-            <option value="value2">value2</option>
-        </select>
-        <input type="radio" name="x">
-        <input type="radio" name="x">
-        <input type="checkbox"> High School
-        <input type="checkbox"> College
-        <input type="checkbox"> basic education
-        <textarea></textarea>
-        <input type="submit">
-    </form>
+    <h1>SurveyForm</h1>
+    <p id="description">Please fill out this form</p>
+    <div class="form"> 
+        <form id="survey-form">
+            <label id="name-label"><input id="name" type="text" required placeholder="name"></label>
+            <label id="email-label"><input id="email" type="email" required placeholder="email"></label>
+            <label id="number-label"><input id="number" type="number" min="0" max="100" placeholder="Age"></label>
+            <select id="dropdown">
+                <option value="value1">value1</option>
+                <option value="value2">value2</option>
+            </select>
+            <input type="radio" name="x">
+            <input type="radio" name="x">
+            <input type="checkbox"> High School
+            <input type="checkbox"> College
+            <input type="checkbox"> basic education
+            <textarea></textarea>
+            <input type="submit">
+        </form>
+    </div>  
 </body>
 </html>

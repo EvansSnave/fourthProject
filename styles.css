@@ -1,3 +1,11 @@
-h1 {
-    color : red;
+.form {
+    display: flex;
+    width: 300px;
+    height: 700px;
+    margin: auto;
+}
+
+body {
+    text-align: center;
+
 }
